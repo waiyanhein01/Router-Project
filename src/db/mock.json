@@ -1,0 +1,129 @@
+{
+    "book": [
+        {
+            "id": "1",
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "slug": "to-kill-a-mockingbird",
+            "description": "A novel about the serious issues of rape and racial inequality, told through the eyes of a young girl."
+        },
+        {
+            "id": "2",
+            "title": "1984",
+            "author": "George Orwell",
+            "slug": "1984",
+            "description": "A dystopian novel set in a totalitarian society under constant surveillance, exploring themes of truth and oppression."
+        },
+        {
+            "id": "3",
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "slug": "pride-and-prejudice",
+            "description": "A romantic novel that critiques the British landed gentry at the end of the 18th century."
+        },
+        {
+            "id": "4",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "slug": "the-great-gatsby",
+            "description": "A story about the young and mysterious millionaire Jay Gatsby and his quixotic passion for the beautiful Daisy Buchanan."
+        },
+        {
+            "id": "5",
+            "title": "Moby-Dick",
+            "author": "Herman Melville",
+            "slug": "moby-dick",
+            "description": "A whaling voyage narrative that explores themes of obsession, revenge, and humanity's struggle against the natural world."
+        },
+        {
+            "id": "6",
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "slug": "war-and-peace",
+            "description": "A historical novel that intertwines the lives of several families against the backdrop of the Napoleonic wars."
+        },
+        {
+            "id": "7",
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "slug": "the-catcher-in-the-rye",
+            "description": "A novel about teenage rebellion and angst, narrated by the iconic character Holden Caulfield."
+        },
+        {
+            "id": "8",
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "slug": "the-hobbit",
+            "description": "A fantasy novel about the adventure of Bilbo Baggins as he embarks on a quest to help dwarves reclaim their homeland."
+        },
+        {
+            "id": "9",
+            "title": "Crime and Punishment",
+            "author": "Fyodor Dostoevsky",
+            "slug": "crime-and-punishment",
+            "description": "A psychological drama exploring the moral dilemmas of a young impoverished student who commits a murder."
+        },
+        {
+            "id": "10",
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "slug": "brave-new-world",
+            "description": "A futuristic novel depicting a technologically advanced society driven by artificial happiness and consumerism."
+        }
+    ],
+
+    "author": [
+        {
+            "id": "1",
+            "name": "Harper Lee",
+            "gender": "Female"
+        },
+        {
+            "id": "2",
+            "name": "George Orwell",
+            "gender": "Male"
+        },
+        {
+            "id": "3",
+            "name": "Jane Austen",
+            "gender": "Female"
+        },
+        {
+            "id": "4",
+            "name": "F. Scott Fitzgerald",
+            "gender": "Male"
+        },
+        {
+            "id": "5",
+            "name": "Herman Melville",
+            "gender": "Male"
+        },
+        {
+            "id": "6",
+            "name": "Leo Tolstoy",
+            "gender": "Male"
+        },
+        {
+            "id": "7",
+            "name": "J.D. Salinger",
+            "gender": "Male"
+        },
+        {
+            "id": "8",
+            "name": "J.R.R. Tolkien",
+            "gender": "Male"
+        },
+        {
+            "id": "9",
+            "name": "Fyodor Dostoevsky",
+            "gender": "Male"
+        },
+        {
+            "id": "10",
+            "name": "Aldous Huxley",
+            "gender": "Male"
+        }
+    ]
+    
+    
+}
