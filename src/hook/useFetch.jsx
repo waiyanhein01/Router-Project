@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { GetBookData } from '../service/book.service';
-
 const useFetch = (fetchFun, arg) => {
     const [fetch, setFetch] = useState({
         loading: true,

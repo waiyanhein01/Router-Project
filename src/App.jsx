@@ -1,19 +1,16 @@
-import React, { useEffect, useState } from "react";
-import { GetBookData } from "./service/book.service";
-import useFetch from "./hook/useFetch";
-import { GetAuthorData } from "./service/author.service";
+import { Route, Routes } from "react-router-dom";
+import { HomePage } from "./page";
+import NavComponents from "./components/Nav.components";
+import NotFound from "./Not-found";
 
 const App = () => {
-  const { loading, data, error } = useFetch(GetAuthorData, "author");
   return (
-    <div>
-      {loading ? (
-        <>Loading...</>
-      ) : (
-        <div>
-          <>{JSON.stringify(data)}</> : <h1>{error}</h1>
-        </div>
-      )}
+    <div className=" container mx-auto h-screen">
+      <NavComponents/>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="*" element={<NotFound/>}/>
+      </Routes>
     </div>
   );
 };

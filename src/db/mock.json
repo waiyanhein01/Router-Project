@@ -5,70 +5,80 @@
             "title": "To Kill a Mockingbird",
             "author": "Harper Lee",
             "slug": "to-kill-a-mockingbird",
-            "description": "A novel about the serious issues of rape and racial inequality, told through the eyes of a young girl."
+            "description": "Set in the 1930s in the American South, this classic novel explores themes of racial injustice and moral growth through the eyes of Scout Finch. Her father, Atticus Finch, serves as a moral hero as he defends a black man falsely accused of raping a white woman.",
+            "img": "https://m.media-amazon.com/images/I/61OPMn3g4mL._SY466_.jpg"
         },
         {
             "id": "2",
             "title": "1984",
             "author": "George Orwell",
             "slug": "1984",
-            "description": "A dystopian novel set in a totalitarian society under constant surveillance, exploring themes of truth and oppression."
+            "description": " In this dystopian novel, George Orwell depicts a totalitarian regime where the Party, led by Big Brother, exercises extreme control over citizens' thoughts and actions. Winston Smith, the protagonist, struggles to maintain his individuality and humanity amidst widespread surveillance and propaganda.",
+            "img": "https://m.media-amazon.com/images/I/71rpa1-kyvL._SY522_.jpg"
         },
         {
             "id": "3",
             "title": "Pride and Prejudice",
             "author": "Jane Austen",
             "slug": "pride-and-prejudice",
-            "description": "A romantic novel that critiques the British landed gentry at the end of the 18th century."
+            "description": "This beloved novel follows the intelligent and spirited Elizabeth Bennet as she navigates the social pressures and romantic entanglements of early 19th-century England. The story centers around her evolving relationship with the wealthy and aloof Mr. Darcy.",
+            "img": "https://m.media-amazon.com/images/I/41xCxs0B+cL._SY425_.jpg"
         },
         {
             "id": "4",
             "title": "The Great Gatsby",
             "author": "F. Scott Fitzgerald",
             "slug": "the-great-gatsby",
-            "description": "A story about the young and mysterious millionaire Jay Gatsby and his quixotic passion for the beautiful Daisy Buchanan."
+            "description": "Set in the Jazz Age, this novel tells the story of Jay Gatsby, a mysterious millionaire, and his obsession with Daisy Buchanan. Through the eyes of Nick Carraway, the story explores themes of ambition, class, and the American Dream's disillusionment.",
+            "img": "https://m.media-amazon.com/images/I/81QuEGw8VPL._SY425_.jpg"
         },
         {
             "id": "5",
             "title": "Moby-Dick",
             "author": "Herman Melville",
             "slug": "moby-dick",
-            "description": "A whaling voyage narrative that explores themes of obsession, revenge, and humanity's struggle against the natural world."
+            "description": "This epic tale follows Captain Ahab's obsessive quest to kill Moby Dick, a giant white whale. Narrated by Ishmael, the novel delves into complex themes of revenge, humanity, and the struggle between man and nature.",
+            "img": "https://m.media-amazon.com/images/I/51MgclnwPvL._SY445_SX342_.jpg"
         },
         {
             "id": "6",
             "title": "War and Peace",
             "author": "Leo Tolstoy",
             "slug": "war-and-peace",
-            "description": "A historical novel that intertwines the lives of several families against the backdrop of the Napoleonic wars."
+            "description": "This monumental novel interweaves the lives of several families against the backdrop of the Napoleonic Wars. Tolstoy explores themes of fate, free will, and the nature of history, with a rich tapestry of characters and detailed historical context.",
+            "img": "https://m.media-amazon.com/images/I/41VkXErPyDL._SY445_SX342_.jpg"
         },
         {
             "id": "7",
             "title": "The Catcher in the Rye",
             "author": "J.D. Salinger",
             "slug": "the-catcher-in-the-rye",
-            "description": "A novel about teenage rebellion and angst, narrated by the iconic character Holden Caulfield."
+            "description": "This novel follows the cynical and rebellious teenager Holden Caulfield as he navigates the challenges of adolescence in 1950s New York City. Through Holden's perspective, the novel explores themes of innocence, identity, and alienation.",
+            "img": "https://m.media-amazon.com/images/I/51TI+w56qFL._SY445_SX342_.jpg"
         },
         {
             "id": "8",
             "title": "The Hobbit",
             "author": "J.R.R. Tolkien",
             "slug": "the-hobbit",
-            "description": "A fantasy novel about the adventure of Bilbo Baggins as he embarks on a quest to help dwarves reclaim their homeland."
+            "description": "This fantasy adventure follows Bilbo Baggins, a hobbit who embarks on an epic quest to help a group of dwarves reclaim their homeland from the dragon Smaug. Along the way, Bilbo discovers his own courage and resourcefulness.",
+            "img": "https://m.media-amazon.com/images/I/418jD+Rsd5L._SY445_SX342_.jpg"
         },
         {
             "id": "9",
             "title": "Crime and Punishment",
             "author": "Fyodor Dostoevsky",
             "slug": "crime-and-punishment",
-            "description": "A psychological drama exploring the moral dilemmas of a young impoverished student who commits a murder."
+            "description": "This psychological drama centers on Rodion Raskolnikov, a destitute student in St. Petersburg who commits a brutal murder. As he grapples with guilt and justification, the novel explores deep philosophical themes of morality, redemption, and the human condition.",
+            "img": "https://m.media-amazon.com/images/I/410iiFU2kiL._SY445_SX342_.jpg"
         },
         {
             "id": "10",
             "title": "Brave New World",
             "author": "Aldous Huxley",
             "slug": "brave-new-world",
-            "description": "A futuristic novel depicting a technologically advanced society driven by artificial happiness and consumerism."
+            "description": "In this futuristic dystopia, society is highly controlled and stratified, with the use of technology and conditioning to maintain order and happiness. The novel follows Bernard Marx and John the Savage as they confront the dehumanizing aspects of this supposedly perfect world.",
+            "img": "https://m.media-amazon.com/images/I/81zE42gT3xL._SY425_.jpg"
         }
     ],
 
