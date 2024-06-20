@@ -3,7 +3,7 @@ import React from "react";
 const NavComponents = () => {
   return (
     <>
-      <div className=" flex justify-between items-center pb-5">
+      <div className=" flex justify-around lg:justify-between items-center pb-5">
         <h1 className=" text-xl font-bold">Book Shop</h1>
         <div className="">
           <svg
