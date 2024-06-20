@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import useFetch from "../../hook/useFetch";
 import { GetBookData } from "../../service/book.service";
 import { useNavigate, useParams } from "react-router-dom";
+import ProviderStore from "../../store/Provider.store";
+import { ApiContext } from "../../store/ApiProvider";
 
 const DetailBookPage = () => {
   const nav = useNavigate();
-  const { id } = useParams();
-  const { loading, data, error } = useFetch(GetBookData, `book/${id}`);
+  const { slug } = useParams();
+  const {loading,data,error} = useContext(ApiContext)
+  const [item,setItem] = useState(null)
+  // const { loading, data, error } = useFetch(GetBookData, `book/${id}`);
+
+  useEffect(() => {
+    const slugItem = data?.find((d) => d.slug === slug )
+    setItem(slugItem)
+  },[data])
 
   const handleBackBtn = () => {
     nav(-1);
@@ -24,17 +33,17 @@ const DetailBookPage = () => {
               <>
                 <div className=" lg:flex flex-row text-center lg:text-left lg:justify-center lg:gap-5 lg:items-center w-auto lg:h-[500px] ">
                   <div className="flex items-center justify-center w-auto">
-                    <img src={data.img} className=" " alt="" />
+                    <img src={item?.img} className=" " alt="" />
                   </div>
                   <div className=" pt-5 lg:pt-0">
                     <h1 className=" text-xl font-bold font-serif">
-                      {data.title}
+                      {item?.title}
                     </h1>
                     <h2 className=" text-neutral-500 pb-3 font-serif">
-                      {data.author}
+                      {item?.author}
                     </h2>
                     <p className=" lg:w-[400px] font-mono">
-                      {data.description}
+                      {item?.description}
                     </p>
                     <button
                       onClick={handleBackBtn}

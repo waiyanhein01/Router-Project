@@ -133,7 +133,27 @@
             "name": "Aldous Huxley",
             "gender": "Male"
         }
-    ]
-    
-    
+    ],
+
+    "user": [
+        {
+          "id": "1",
+          "name": "Mg Mg",
+          "email": "mgmg@gmail.com",
+          "password": "mg123"
+        },
+        {
+          "id": "2",
+          "name": "Bo Bo",
+          "email": "bobo@gmail.com",
+          "password": "bo123"
+        },
+        {
+          "id": "3",
+          "name": "Su Su",
+          "email": "susu@gmail.com",
+          "password": "su123"
+        }
+      ]      
+        
 }
