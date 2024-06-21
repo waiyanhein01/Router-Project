@@ -1,13 +1,24 @@
-import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 
 const DashboardPage = () => {
+  const { state } = useLocation();
+  const nav = useNavigate();
+
+  useEffect(() => {
+    const checkData = localStorage.getItem("User Auth");
+    if (!checkData) {
+      nav("/admin");
+    }
+  }, []);
   return (
     <div>
-      <div className=" grid grid-cols-12">
+      <div className=" grid grid-cols-12 items-center justify-center">
         <div className=" col-span-3 ">
           <ul>
             <Link to={"/dashboard"}>
+              {state?.loginData?.email}
+
               <ul>DashBoard</ul>
             </Link>
             {/* <Link to={"/dashboard/inventory"}>

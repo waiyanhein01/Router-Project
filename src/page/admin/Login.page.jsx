@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button, Checkbox, Label, TextInput } from "flowbite-react";
+import { Authentications } from "../../service/login.service";
+import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
   const [formData, setFormData] = useState({
@@ -7,9 +9,22 @@ const LoginPage = () => {
     password: "",
   });
 
-  const handleSubmit = (e) => {
+  const nav = useNavigate();
+  useEffect(() => {
+    const dataHave = localStorage.getItem("User Auth") 
+    if(dataHave){
+        nav("/dashboard")
+    }
+},[])
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+
+    const loginData = await Authentications("user", formData);
+    if (loginData) {
+        localStorage.setItem("User Auth",JSON.stringify(loginData))
+      nav("/dashboard", { state: { loginData } });
+    }
   };
 
   const handleEmailInput = (e) => {
